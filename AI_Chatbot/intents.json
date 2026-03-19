@@ -1,0 +1,248 @@
+{
+    "intents": [
+        {
+        "tag": "greeting",
+        "patterns": [
+            "Hola",
+            "Hi",
+            "Hello",
+            "Que tal",
+            "Buenos dias",
+            "Buenas tardes",
+            "Hey"
+        ],
+        "responses": [
+            "Hola. Como puedo ayudarte?",
+            "Hey! En que te ayudo?",
+            "Hola, preguntame sobre redes neuronales"
+        ]
+        },
+        {
+        "tag": "goodbye",
+        "patterns": [
+            "Chao",
+            "Adios",
+            "Nos vemos",
+            "Bye",
+            "Hasta luego"
+        ],
+        "responses": [
+            "Hasta luego!",
+            "Nos vemos pronto",
+            "Adios, sigue aprendiendo"
+        ]
+        },
+        {
+        "tag": "thanks",
+        "patterns": [
+            "Gracias",
+            "Thank you",
+            "Muchas gracias",
+            "Thanks"
+        ],
+        "responses": [
+            "Con gusto",
+            "Para eso estoy!",
+            "Siempre feliz de ayudar"
+        ]
+        },
+        {
+        "tag": "what_is_nn",
+        "patterns": [
+            "Que son las redes neuronales",
+            "Define redes neuronales",
+            "What is a neural network",
+            "Para que sirven las redes neuronales",
+            "Explicame redes neuronales"
+        ],
+        "responses": [
+            "Las redes neuronales son modelos computacionales inspirados en el cerebro humano que permiten reconocer patrones y tomar decisiones.",
+            "Son sistemas que aprenden a partir de datos y se usan para prediccion, clasificacion y generacion de contenido."
+        ]
+        },
+        {
+        "tag": "uses_nn",
+        "patterns": [
+            "Para que sirven las redes neuronales",
+            "Usos de redes neuronales",
+            "Aplicaciones de neural networks",
+            "Donde se usan"
+        ],
+        "responses": [
+            "Se usan en reconocimiento de imagenes, procesamiento de lenguaje natural, prediccion de datos y generacion de contenido.",
+            "Tambien son la base de los modelos LLM como ChatGPT."
+        ]
+        },
+        {
+        "tag": "how_nn_work",
+        "patterns": [
+            "Como funcionan las redes neuronales",
+            "Explain how neural networks work",
+            "Como aprende una red neuronal"
+        ],
+        "responses": [
+            "Funcionan mediante neuronas artificiales conectadas en capas que procesan datos y ajustan sus pesos para mejorar.",
+            "Reciben datos, los procesan en capas ocultas y ajustan sus parametros mediante aprendizaje."
+        ]
+        },
+        {
+        "tag": "neuron_structure",
+        "patterns": [
+            "Que es una neurona artificial",
+            "Partes de una neurona",
+            "Neuron inputs weights bias",
+            "Como funciona una neurona"
+        ],
+        "responses": [
+            "Una neurona recibe inputs, aplica pesos y bias, hace una suma ponderada y usa una funcion de activacion para generar una salida.",
+            "Las neuronas son la base de las redes y transforman datos en informacion util."
+        ]
+        },
+        {
+        "tag": "learning_process",
+        "patterns": [
+            "Como aprende una red neuronal",
+            "Que es backpropagation",
+            "Que es descenso de gradiente",
+            "Como se entrena una red"
+        ],
+        "responses": [
+            "Las redes aprenden comparando su salida con el valor real, calculando el error y ajustando los pesos mediante backpropagation.",
+            "El descenso de gradiente permite minimizar el error ajustando los parametros."
+        ]
+        },
+        {
+        "tag": "nlp",
+        "patterns": [
+            "Que es NLP",
+            "Procesamiento de lenguaje natural",
+            "Como funciona NLP",
+            "Que son tokens y embeddings"
+        ],
+        "responses": [
+            "El NLP permite que las maquinas entiendan texto. Usa tokenizacion, embeddings y redes neuronales para procesar lenguaje.",
+            "Convierte palabras en vectores numericos y luego los procesa para obtener significado."
+        ]
+        },
+        {
+        "tag": "image_recognition",
+        "patterns": [
+            "Reconocimiento de imagenes",
+            "Como funcionan las redes en imagenes",
+            "Image recognition neural networks"
+        ],
+        "responses": [
+            "Primero se preparan los datos, luego se disena la red, se entrena y finalmente se usa para clasificar imagenes.",
+            "Las imagenes se convierten en datos numericos que la red aprende a interpretar."
+        ]
+        },
+        {
+        "tag": "applications",
+        "patterns": [
+            "Aplicaciones de la IA",
+            "Donde se usa AI",
+            "Ejemplos de IA",
+            "Que hacen los asistentes virtuales"
+        ],
+        "responses": [
+            "La IA se usa en asistentes virtuales, sistemas de recomendacion, LLMs y agentes inteligentes.",
+            "Hace tareas mas rapidas, faciles y personalizadas en la vida diaria."
+        ]
+        },
+        {
+        "tag": "activation_functions",
+        "patterns": [
+            "Que son funciones de activacion",
+            "Para que serve ReLU",
+            "Diferencia entre ReLU y sigmoid",
+            "Que es softmax"
+        ],
+        "responses": [
+            "Las funciones de activacion introducen no-linealidad. ReLU es la mas popular, devuelve max(0,x). Sigmoid y Tanh comprimen valores.",
+            "Sin activacion, la red seria solo operaciones lineales. Las funciones permitlen aprender relaciones complejas."
+        ]
+        },
+        {
+        "tag": "loss_functions",
+        "patterns": [
+            "Que es cost function",
+            "Diferencia entre MSE y cross entropy",
+            "Que es la funcion de perdida"
+        ],
+        "responses": [
+            "La funcion de perdida mide que tan mal fue nuestra prediccion. MSE se usa en regresion, Cross Entropy en clasificacion.",
+            "Minimizar esta funcion es el objetivo del entrenamiento."
+        ]
+        },
+        {
+        "tag": "overfitting",
+        "patterns": [
+            "Que es overfitting",
+            "Como evitar overfitting",
+            "Que es regularizacion",
+            "Para que sirve dropout"
+        ],
+        "responses": [
+            "Overfitting es cuando la red memoriza datos de entrenamiento pero falla en datos nuevos. Se previene con regularizacion y dropout.",
+            "Dropout y L1/L2 regularization ayudan a generalizar mejor."
+        ]
+        },
+        {
+        "tag": "deep_learning",
+        "patterns": [
+            "Que es deep learning",
+            "Cuantas capas debe tener una red",
+            "CNN vs RNN vs Transformers"
+        ],
+        "responses": [
+            "Deep learning usa redes con muchas capas. CNN para imagenes, RNN para secuencias, Transformers para texto.",
+            "Mas capas = mejor para problemas complejos, pero tambien mas datos y tiempo de entreno."
+        ]
+        },
+        {
+        "tag": "datasets",
+        "patterns": [
+            "Cuantos datos necesito",
+            "Como preparar datos",
+            "Normalizacion y estandarizacion"
+        ],
+        "responses": [
+            "Necesitas suficientes datos representativos. Normaliza (0-1) o estandariza (media 0, desv 1) tus inputs.",
+            "La calidad de datos es crucial. Limpia, navega valores faltantes y evita desbalances."
+        ]
+        },
+        {
+        "tag": "hyperparameters",
+        "patterns": [
+            "Que es learning rate",
+            "Como elegir batch size",
+            "Que son hiperparametros"
+        ],
+        "responses": [
+            "Los hiperparametros controlan el entrenamiento: learning rate (cuanto ajustar), batch size (muestras por iteracion), epochs (vueltas).",
+            "Learning rate bajo = lento pero estable. Alto = rapido pero inestable. Experimenta con valores como 0.001, 0.01."
+        ]
+        },
+        {
+        "tag": "pytorch_vs_tensorflow",
+        "patterns": [
+            "Diferencia entre PyTorch y TensorFlow",
+            "Cual debo usar",
+            "PyTorch para principiantes"
+        ],
+        "responses": [
+            "PyTorch es mas intuitivo y flexible, TensorFlow es mas robusto en produccion. Para aprender, PyTorch es mejor",
+            "PyTorch usa dynamic computation graphs que facilitan el debugging."
+        ]
+        },
+        {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": [
+            "No entendi eso. Puedes reformularlo?",
+            "Intenta preguntarme algo sobre redes neuronales.",
+            "No estoy seguro de eso, pero puedo ayudarte con IA"
+        ]
+        }
+    ]
+}
